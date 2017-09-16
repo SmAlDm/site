@@ -9,3 +9,20 @@ body
 	background: #111 url("../img/body-bg.jpg") no-repeat center top;
 
 }
+
+
+.Inner-page
+{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", Sans-serif;
+
+	color: black;
+
+	background: white;
+
+}
+
+.main-footer{
+	background: grey; /* цвет футеру что-бы было понятно */
+}
