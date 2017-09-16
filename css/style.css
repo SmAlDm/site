@@ -8,6 +8,7 @@ body
 
 	background: #111 url("../img/body-bg.jpg") no-repeat center top;
 
+<<<<<<< HEAD
 }
 
 
@@ -26,3 +27,6 @@ body
 .main-footer{
 	background: grey; /* цвет футеру что-бы было понятно */
 }
+=======
+}
+>>>>>>> 2bbe48a5fbcc62740f9b22d20fa1b17abc2446ec
