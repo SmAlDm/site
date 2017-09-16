@@ -26,7 +26,6 @@
 
     <!-- тут закончился хедер-->
 
-    <div class = "price-main-content" > <!-- Всю страниуц в блок обернул -->
       <div class ="container">   <!-- Центровщик -->
         <div class = "Price Block">
           <h1> СРЕДСТВА ДЛЯ УХОДА </h1>
@@ -36,6 +35,56 @@
               <li> СРЕДСТВА ДЛЯ УХОДА </li>
             </ul>
         </div>
+      </div>
+    
+    <div class ="Main-catalog">
+      <form action="/echo" method="post" class="y">
+        <fieldset>
+
+          <legend>Производители:</legend>
+
+          <input type="checkbox" name="baxter-of-california" id="baxter-of-california-field" checked>
+          <label for="baxter-of-california-field">Baxter of California</label>
+            <br>
+          <input type="checkbox" name ="MR-NATTY" id ="MR-NATTY-FIELD">
+          <label for="MR-NATTY-FIELD">MR NATTY</label>
+            <br>
+          <input type="checkbox" name ="Suavecito" id ="Suavecito-FIELD" checked>
+          <label for="Suavecito-FIELD">SUAVECITO</label>
+            <br>
+          <input type="checkbox" name ="Malin-Goetz" id ="Malin+Goetz-FIELD">
+          <label for="Malin-Goetz-FIELD">Malin+Goetz</label>
+            <br>
+          <input type="checkbox" name ="Murrays" id ="Murrays-FIELD">
+          <label for="Murrays-FIELD">Murray’s</label>
+            <br>
+          <input type="checkbox" name ="American-Crew" id ="American-Crew-FIELD" checked="">
+          <label for="MR-NATTY-FIELD">American-Crew</label>
+
+        </fieldset>
+        <fieldset>
+
+          <legend>ГРУППЫ ТОВАРОВ:</legend>
+
+          <input type="radio" name ="product-type" value="blade-item" id ="product-type-field">
+          <label for="product-type-field">Бритвенные принадлежности </label>
+          <br>
+          <input type="radio" name ="product-type" value="care-products" id ="care-products-field">
+          <label for="care-products-field">Средства для ухода</label>
+          <br>
+          <input type="radio" name ="product-type" value="accessories" id ="accessories-field" checked="" disabled>
+          <label for="accessories-field">Аксесуары</label>
+        </fieldset>
+
+        <button class="btn" type="submit">Показать</button>
+      </form>
+    </div>
+
+    <div class="gallary">
+      <div class ="catalog-container">
+        
+
+
       </div>
     </div>
 
