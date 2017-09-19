@@ -35,9 +35,10 @@
               <li> СРЕДСТВА ДЛЯ УХОДА </li>
             </ul>
         </div>
-      </div>
+      </div> <!--тут якобы закрыт центровщик?? Возможна ошибка -->
     
     <div class ="Main-catalog">
+      <div class = "container">
       <form action="/echo" method="post" class="y">
         <fieldset>
 
@@ -78,12 +79,16 @@
 
         <button class="btn" type="submit">Показать</button>
       </form>
+      </div>
     </div>
-
     <div class="gallary">
-      <div class ="catalog-container">
+      <div class ="container">
         <div class = "TravelItem">
           <img src="img/BAXTER OF CALIFORNIA.png" alt ="Набор для путешесетвий BAXTER OF CALIFORNIA">
+          <p class="DescriptionLink">
+            Набор для путешествий <br>
+            «Baxter of California»
+          </p>
           <div class = "BuyBox">
             <span class ="Price">2900 РУБ.</span>
             <a href="#" class="btn"> Купить </a>
@@ -133,6 +138,7 @@
       <a href="#" class="btn"> 2 </a>
       <a href="#" class="btn"> 3 </a>
       <a href="#" class="btn"> 4 </a>
+    </div>
 
 
     <!--тут начинается футер -->
@@ -154,6 +160,7 @@
           <p> Разработано: </p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>
+      </div>
       </div>
     </footer>
   </body>

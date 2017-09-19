@@ -1,28 +1,42 @@
-body
-{
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", Sans-serif;
 
-	color: #fff;
+body{
 
-	background: #111 url("../img/body-bg.jpg") no-repeat center top;
+	background: url("../img/body-bg.jpg") no-repeat top center;
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:: after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header {
+	margin-bottom: 60px;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
 }
 
 
-.Inner-page
-{
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", Sans-serif;
-
-	color: black;
-
-	background: white;
-
-}
-
-.main-footer{
-	background: grey; /* цвет футеру что-бы было понятно */
-}
 
